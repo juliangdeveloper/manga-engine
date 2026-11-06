@@ -1,0 +1,9 @@
+export const APP_ID = "manga-engine";
+export const APP_VERSION = "0.1.0";
+export const STATS_KEY = "manga-engine.stats";
+export const EXAMPLE_DIR = "example/";
+export const EXAMPLE_URL = EXAMPLE_DIR + "limonada.json";
+export const STAT = Object.freeze({ PANELS_VIEWED: "vinetas_vistas" });
+export const STATS = Object.freeze([Object.freeze({ key: STAT.PANELS_VIEWED, tipo: "total_acumulado" })]);
+export const SWIPE_PX = 40;
+export const FIT_MARGIN_PX = 12;

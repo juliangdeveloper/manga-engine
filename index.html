@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Motor open source que convierte un JSON con viñetas y bocadillos en páginas manga, PNG, ePub y CBZ.">
+<title>Manga Engine</title>
+<link rel="icon" href="assets/icon.svg?v=0.1.0" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&family=Patrick+Hand&display=block">
+<link rel="stylesheet" href="engine/manga.css?v=0.1.0">
+<link rel="stylesheet" href="app/app.css?v=0.1.0">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><img src="assets/icon.svg?v=0.1.0" alt="" width="28" height="28"><span>Manga Engine</span><span class="ver" id="ver"></span></div>
+  <nav class="links">
+    <a href="example/limonada.json" target="_blank" rel="noopener">JSON</a>
+    <a href="schema/manga.schema.json" target="_blank" rel="noopener">Esquema</a>
+    <a href="https://github.com/juliangdeveloper/manga-engine" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</header>
+<main class="stage" id="stage">
+  <div class="fit" id="fit"><div id="sheet"></div></div>
+  <div class="fit" id="single" hidden></div>
+</main>
+<footer class="dock">
+  <button class="nav" id="prev" type="button" aria-label="Viñeta anterior" hidden>‹</button>
+  <div class="seg" role="group" aria-label="Vista">
+    <button type="button" data-view="page" aria-pressed="true">Página</button>
+    <button type="button" data-view="panels" aria-pressed="false">Viñetas</button>
+  </div>
+  <span class="count" id="count" hidden></span>
+  <button class="nav" id="next" type="button" aria-label="Viñeta siguiente" hidden>›</button>
+</footer>
+<script src="engine/render.js?v=0.1.0"></script>
+<script type="module" src="app/app.js?v=0.1.0"></script>
+</body>
+</html>

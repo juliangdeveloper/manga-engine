@@ -1,0 +1,231 @@
+{
+  "$schema": "../schema/manga.schema.json",
+  "width": 1080,
+  "padding": 28,
+  "gap": 16,
+  "columns": 12,
+  "rows": [
+    560,
+    600,
+    600,
+    640
+  ],
+  "title": {
+    "text": "LIMONADA",
+    "sub": "Una receta\npara el calor"
+  },
+  "footer": "— FIN —",
+  "meta": {
+    "title": "Limonada",
+    "lang": "es",
+    "creator": "Manga Engine"
+  },
+  "cover": {
+    "img": "img/p6.svg",
+    "focus": "center 40%",
+    "titleSize": 96,
+    "sub": "Una receta para el calor"
+  },
+  "panels": [
+    {
+      "img": "img/p1.svg",
+      "col": [
+        1,
+        12
+      ],
+      "row": [
+        1
+      ],
+      "bubbles": [
+        {
+          "type": "caption",
+          "text": "Una tarde de mucho calor…",
+          "x": 3,
+          "y": 6,
+          "w": 330,
+          "size": 34
+        },
+        {
+          "type": "thought",
+          "text": "¿Y si hago\n<b>LIMONADA</b>?",
+          "x": 40,
+          "y": 14,
+          "w": 250,
+          "tail": "right",
+          "tailAt": 60
+        },
+        {
+          "type": "sfx",
+          "text": "UF…",
+          "x": 86,
+          "y": 6,
+          "size": 64,
+          "rot": 10
+        }
+      ]
+    },
+    {
+      "img": "img/p2.svg",
+      "col": [
+        1,
+        6
+      ],
+      "row": [
+        2
+      ],
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "¡CHAS!",
+          "x": 8,
+          "y": 8,
+          "size": 90,
+          "rot": -10
+        },
+        {
+          "type": "label",
+          "text": "4 LIMONES",
+          "x": 60,
+          "y": 5,
+          "dark": true
+        },
+        {
+          "type": "caption",
+          "text": "Corta los limones\npor la mitad.",
+          "x": 4,
+          "y": 84,
+          "w": 230,
+          "size": 29
+        }
+      ]
+    },
+    {
+      "img": "img/p3.svg",
+      "col": [
+        7,
+        6
+      ],
+      "row": [
+        2
+      ],
+      "bubbles": [
+        {
+          "type": "speech",
+          "text": "¡Todo el jugo\na la jarra!",
+          "x": 45,
+          "y": 2,
+          "w": 230,
+          "size": 29,
+          "tail": "down",
+          "tailAt": 55,
+          "rot": 2
+        },
+        {
+          "type": "sfx",
+          "text": "SQUISH",
+          "x": 3,
+          "y": 56,
+          "size": 58,
+          "rot": -10
+        }
+      ]
+    },
+    {
+      "img": "img/p4.svg",
+      "col": [
+        1,
+        7
+      ],
+      "row": [
+        3
+      ],
+      "box": "<b>1 L</b> de agua fría <b>4 CDAS</b> de azúcar <span class=\"t\">MEZCLA HASTA DISOLVER</span>",
+      "bubbles": [
+        {
+          "type": "label",
+          "text": "AGUA",
+          "x": 6,
+          "y": 6
+        },
+        {
+          "type": "label",
+          "text": "AZÚCAR",
+          "x": 70,
+          "y": 40
+        },
+        {
+          "type": "sfx",
+          "text": "GLUG GLUG",
+          "x": 30,
+          "y": 4,
+          "size": 54,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "img": "img/p5.svg",
+      "col": [
+        8,
+        5
+      ],
+      "row": [
+        3
+      ],
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "CLINK!",
+          "x": 20,
+          "y": 26,
+          "size": 70,
+          "rot": -8
+        },
+        {
+          "type": "label",
+          "text": "HIELO",
+          "x": 60,
+          "y": 4
+        },
+        {
+          "type": "caption",
+          "text": "Revuelve\ncon hielo.",
+          "x": 5,
+          "y": 50,
+          "w": 170,
+          "size": 28
+        }
+      ]
+    },
+    {
+      "img": "img/p6.svg",
+      "col": [
+        1,
+        12
+      ],
+      "row": [
+        4
+      ],
+      "bubbles": [
+        {
+          "type": "speech",
+          "text": "¡<b>PERFECTA</b>!",
+          "x": 4,
+          "y": 10,
+          "w": 260,
+          "size": 40,
+          "tail": "right",
+          "tailAt": 60
+        },
+        {
+          "type": "caption",
+          "text": "Sirve bien fría.\nRinde 4 vasos.",
+          "x": 4,
+          "y": 74,
+          "w": 250,
+          "size": 30
+        }
+      ]
+    }
+  ]
+}
