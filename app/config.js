@@ -1,5 +1,5 @@
 export const APP_ID = "manga-engine";
-export const APP_VERSION = "0.1.0";
+export const APP_VERSION = "0.1.1";
 export const STATS_KEY = "manga-engine.stats";
 export const EXAMPLE_DIR = "example/";
 export const EXAMPLE_URL = EXAMPLE_DIR + "limonada.json";

@@ -144,20 +144,20 @@
         {
           "type": "label",
           "text": "AGUA",
-          "x": 6,
-          "y": 6
+          "x": 4,
+          "y": 40
         },
         {
           "type": "label",
           "text": "AZÚCAR",
-          "x": 70,
-          "y": 40
+          "x": 72,
+          "y": 36
         },
         {
           "type": "sfx",
           "text": "GLUG GLUG",
-          "x": 30,
-          "y": 4,
+          "x": 38,
+          "y": 6,
           "size": 54,
           "rot": 6
         }

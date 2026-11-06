@@ -1,7 +1,7 @@
 (function (global) {
   "use strict";
 
-  const VERSION = "0.1.0";
+  const VERSION = "0.1.1";
   const SVG_NS = "http://www.w3.org/2000/svg";
   const DEFAULTS = Object.freeze({ width: 1080, padding: 28, gap: 16, columns: 12 });
   const SIZE = Object.freeze({ sfx: 80, label: 30, text: 31, box: 31 });
