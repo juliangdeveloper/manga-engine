@@ -89,3 +89,9 @@ Empieza copiando [`example/limonada.json`](example/limonada.json). Las rutas de 
 
 ## Licencia
 [MIT](LICENSE)
+
+---
+
+Más proyectos: https://juliangdeveloper.github.io/
+
+Hecho con ❤️ y 🗯️
